@@ -99,7 +99,7 @@ int main() {
 
     printf("Saving image to disk...\n");
 
-    stbi_write_png("output.png", width, height, STBI_rgb_alpha, flipped_buffer, 0);
+    stbi_write_jpg("output.jpg", width, height, STBI_rgb_alpha, flipped_buffer, 0);
 
     // Cleanup
 
