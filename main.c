@@ -79,6 +79,10 @@ int main() {
     nvgFontSize(nvg, 80);
     nvgFillColor(nvg, nvgRGB(255, 255, 255));
     nvgText(nvg, 100, height - 100, "This amazing font was rendered on the GPU.", 0);
+    nvgFontSize(nvg, 400);
+    nvgFillColor(nvg, nvgRGBA(255, 255, 255, 16));
+    nvgTextAlign(nvg, NVG_ALIGN_CENTER | NVG_ALIGN_MIDDLE);
+    nvgText(nvg, width / 2, height / 2, "UNICORNS", 0);
     nvgEndFrame(nvg);
 
     // Download result from GPU
