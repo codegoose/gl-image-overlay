@@ -1,0 +1,9 @@
+[requires]
+
+stb/20200203
+glfw/3.3.4
+glew/2.2.0
+
+[generators]
+
+cmake

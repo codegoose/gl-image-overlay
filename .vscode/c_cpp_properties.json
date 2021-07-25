@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Default",
+            "includePath": [
+                "${workspaceFolder}/nanovg/include",
+                "${default}"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}
